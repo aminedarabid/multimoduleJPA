@@ -35,8 +35,8 @@ import java.util.List;
             // 1. Obtenir une connection database
             EntityManagerFactory emf = (EntityManagerFactory)getServletContext().getAttribute("emf");
             IFormationService monservice = new FormationService();
-            
-            
+
+
             try {
                 // 2. Création d'une nouvelle formation ?:
                 String theme = request.getParameter("themeFormation");
@@ -46,7 +46,7 @@ import java.util.List;
                 }
 
                 // 3. Afficher la liste des formations en Base:
-                List<Formation> listeFormations = monservice.LireLesFormations(emf);
+                List<Formation> listeFormations = monservice.lireLesFormations(emf);
                 
                 request.setAttribute("listeDesFormations", listeFormations);
                 request.getRequestDispatcher("/index.jsp").forward(request, response);
