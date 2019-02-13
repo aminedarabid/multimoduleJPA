@@ -3,9 +3,9 @@
 Les instructions suivantes ont pour but d'expliquer les étapes de déploiement de notre application.
 
 Les étapes:
-1- importer la bdd
-2- generer le war
-3- déployer le war dans tomcat
+- importer la bdd
+- generer le war
+- déployer le war dans tomcat
 
 Celle-ci a pour finalité de mettre en exergue les concepts suivant : maven, multimodule, jpa, transaction base de données.
 
