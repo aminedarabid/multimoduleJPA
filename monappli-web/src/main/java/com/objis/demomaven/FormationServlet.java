@@ -25,19 +25,12 @@ import java.util.List;
          */
         public FormationServlet() {
             super();
-            // TODO Auto-generated constructor stub
-        }
-
-        /**
-         * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-         */
-        protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         }
 
         /**
          * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
          */
+        @Override
         protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
             // 1. Obtenir une connection database
             EntityManagerFactory emf = (EntityManagerFactory)getServletContext().getAttribute("emf");
