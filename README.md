@@ -2,7 +2,7 @@
 
 Les instructions suivantes ont pour but d'expliquer les étapes de déploiement de notre application.
 
-Etape:
+Les étapes:
 - importer la bdd
 - generer le war
 - déployer le war dans tomcat
