@@ -2,7 +2,7 @@
 
 Les instructions suivantes ont pour but d'expliquer les étapes de déploiement de notre application.
 
-Celle-ci a pour but de mettre en exergue les concepts suivant : multimodule, maven, jpa, transaction base de données.
+Celle-ci a pour finalité de mettre en exergue les concepts suivant : maven, multimodule, jpa, transaction base de données.
 
 Environnement:
 - tomcat V7.0.56 (port defaut: 8080)
