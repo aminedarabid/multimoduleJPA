@@ -12,6 +12,6 @@ public interface IFormationService {
 
 	void creerFormation(EntityManagerFactory emf, Formation maformation) throws ServletException, IOException;
 
-	List<Formation> LireLesFormations(EntityManagerFactory emf) throws ServletException, IOException;
+	List<Formation> lireLesFormations(EntityManagerFactory emf) throws ServletException, IOException;
 
 }

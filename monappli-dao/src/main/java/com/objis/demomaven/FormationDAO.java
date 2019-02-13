@@ -8,6 +8,7 @@ import javax.persistence.EntityTransaction;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
 
 public class FormationDAO implements IFormationDAO {
@@ -32,7 +33,7 @@ public class FormationDAO implements IFormationDAO {
 
     @Override
     public List<Formation> read(EntityManagerFactory emf) throws ServletException, IOException {
-        return null;
+        return Collections.emptyList();
     }
 
 }
