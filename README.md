@@ -15,16 +15,13 @@ Environnement:
 - maven V3.6
 - mySQL v10.1.8
 
-Lien Github: https://github.com/aminedarabid/multimoduleJPA
-
-Récuperer le livrable:
+Récuperer le projet:
 - git clone https://github.com/aminedarabid/multimoduleJPA
 
-Importer la base de données dans mysql "bdd.sql" qui se trouve dans le repertoire "livrable"
+Importer la base de données dans mysql "bdd.sql" qui se trouve dans le repertoire "bdd"
 
 Pour générer le war:
-- importer le projet dans eclipse
-- excecute la  commande : mvn clen install
+- exécute la  commande : mvn clean install
 
 Pour déployer l'application multimoduleJPA: 
 - demarrer tomcat 
